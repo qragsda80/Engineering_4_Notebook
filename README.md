@@ -61,7 +61,7 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Image
 
-[Hyperlink text](images/istockphoto-1154370446-612x612.jpg)
+![Hyperlink text](images/istockphoto-1154370446-612x612.jpg)
 
 ### Test GIF
 
