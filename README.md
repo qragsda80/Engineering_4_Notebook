@@ -57,6 +57,12 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Link
 
+[Hyperlink text](http://crossdivisions.com)
+
 ### Test Image
 
+[Hyperlink text](images/istockphoto-1154370446-612x612.jpg)
+
 ### Test GIF
+
+![Hyperlink text](images/snoop-dogg-rap.gif)
