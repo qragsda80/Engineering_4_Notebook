@@ -3,8 +3,64 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
+* [Launch_Pad_1](#Launch_Pad_1)
+* [Launch_Pad_2](#Launch_Pad_2)
+* [Launch_Pad_3](#Launch_Pad_3)
+* [Launch_Pad_4](#Launch_Pad_4)
+* [Crash_Avoidance_1](#Crash_Avoidance_1)
+* [Crash_Avoidance_2](#Crash_Avoidance_2)
+* [Crash_Avoidance_3](#Crash_Avoidance_3)
+* [Landing_Area_1](#Landing_Area_1)
+* [Landing_Area_2](#Landing_Area_2)
+* [Morse_Code_1](#Morse_Code_1)
+* [Morse_Code_2](#Morse_Code_2)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
+
+&nbsp;
+
+## Raspberry_Pi_Assignment_Template
+
+### Assignment Description
+
+Create code to count down from 10 to 0 on the serial mointor. At 0, print the "Liftoff!" Use a loop and each number should be one second apart.
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
+## Raspberry_Pi_Assignment_Template
+
+### Assignment Description
+
+
+
+### Evidence 
+
+Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
 
