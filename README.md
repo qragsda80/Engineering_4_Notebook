@@ -45,7 +45,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-
+Adding on to the assignment before, make a red LED blink everytime it counts down one second. Then turn on a green LED when it says "Liftoff!"
 
 ### Evidence 
 
@@ -68,7 +68,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+
 
 ### Evidence 
 
