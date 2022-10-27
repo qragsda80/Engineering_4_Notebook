@@ -496,7 +496,7 @@ It was a fun addition to the previous assignment.First we created a constant to 
 &nbsp;
 
 
-## Shoutout to Shrey Panicker and Elias Zell for their contributions to this Notebook. It couldn't have been done withou out you two... ;)
+## Shoutout to Shrey Panicker and Elias Zell for their contributions to this Notebook. It couldn't have been done without out you two... ;)
 All wiring diagrams are originally theirs. Check them out on Github [@shrey45](https://github.com/shrey45/Engineering_4_Notebook) and [ezell38](https://github.com/ezell38/Engineering_4_Notebook)!
 
 
