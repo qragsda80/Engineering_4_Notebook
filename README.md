@@ -26,11 +26,11 @@ Create code to count down from 10 to 0 on the serial mointor. At 0, print the "L
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+No wiring
 
 ### Code
 Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
@@ -68,7 +68,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-
+We are adding on to the previous code. This time, you will use a button to initiate the countdown. 
 
 ### Evidence 
 
@@ -91,7 +91,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+We are still building on the code from the previous assignments. In this assignment you need to move a servo 180 degress when the green light turns on and the serial monitor prints "Liftoff!"
 
 ### Evidence 
 
@@ -114,7 +114,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Use an accelerometer to print the X, Y, and Z acceleration values. This should be in real time and countinuously print. 
 
 ### Evidence 
 
@@ -137,7 +137,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The objective of this assigment is to add on to Crash Avoidance 1 and make an LED turn on when it turns past 90 degrees in any direction. We also need to power this by using a LiPo battery instead of the computer.
 
 ### Evidence 
 
@@ -160,7 +160,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Wire an OLED screen that prints the angular velocity values. Keep the other parts of the assignment like the LiPo battery and the LED turning on when turned past 90 degrees in any direction.
 
 ### Evidence 
 
@@ -183,7 +183,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Make code that will allow you to enter 3 coordinates of a triangle. Then it will return the area of the triangle to you.
 
 ### Evidence 
 
@@ -206,7 +206,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Building on the last assignment, use an OLED screen to print everything. Also, you have to graph the triangle on the OLED screen.
 
 ### Evidence 
 
@@ -229,7 +229,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The objective of this assignment is to translate a few words into morse code. The code asks you for the word(s). You type it in, and the morse code is returned to you. There is a bigger amount of space in between letters and slashes in between different words.
 
 ### Evidence 
 
@@ -252,7 +252,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment adds on to the previous, "Morse Code 1." In this assignment you have to wire an LED to blink accordingly with the morse code that is returned. There are short blinks for dots, long blinks for dashes, longer pauses in between letters, and even longer pauses in between words
 
 ### Evidence 
 
