@@ -292,6 +292,7 @@ Wire an OLED screen that prints the angular velocity values. Keep the other part
 
 ### Evidence 
 
+![Crash 3](images/Crash_3.gif)
 
 ### Wiring
 
