@@ -69,7 +69,7 @@ https://user-images.githubusercontent.com/63983735/198157540-1b7d27db-2d23-466f-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Launch Pad](images/Launch_4_Wire.JPG)
 
 ### Code
 
@@ -112,7 +112,7 @@ https://user-images.githubusercontent.com/63983735/198157735-de986317-83ba-4274-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Launch Pad](images/Launch_4_Wire.JPG)
 
 ### Code
 
@@ -174,7 +174,7 @@ https://user-images.githubusercontent.com/63983735/198157804-bf16c9f3-f43b-47c4-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Launch Pad](images/Launch_4_Wire.JPG)
 
 ### Code
 
