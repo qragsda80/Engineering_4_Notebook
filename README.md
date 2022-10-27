@@ -26,7 +26,7 @@ Create code to count down from 10 to 0 on the serial mointor. At 0, print the "L
 
 ### Evidence 
 
-
+https://user-images.githubusercontent.com/63983735/198157410-312b2911-d246-433e-bc82-131ca46b2963.mov
 
 ### Wiring
 
@@ -50,7 +50,7 @@ Adding on to the assignment before, make a red LED blink everytime it counts dow
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198157540-1b7d27db-2d23-466f-af0f-48d28da1be51.mov
 
 ### Wiring
 
@@ -73,7 +73,7 @@ We are adding on to the previous code. This time, you will use a button to initi
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198157735-de986317-83ba-4274-8708-b61aab024f3e.mov
 
 ### Wiring
 
@@ -96,7 +96,7 @@ We are still building on the code from the previous assignments. In this assignm
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198157804-bf16c9f3-f43b-47c4-bb21-4fcf63d7ba15.mov
 
 ### Wiring
 
@@ -104,6 +104,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
+```
 import time
 import board
 import digitalio
@@ -127,6 +128,7 @@ for i in range(10,0,-1):
 
 print('LIFTOFF')
 led2.value = True 
+```
 
 ### Reflection
 
