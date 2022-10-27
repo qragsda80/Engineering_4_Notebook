@@ -69,7 +69,7 @@ https://user-images.githubusercontent.com/63983735/198157540-1b7d27db-2d23-466f-
 
 ### Wiring
 
-![Launch Pad](images/Launch_4_Wire.JPG)
+![Launch Pad](images/Launch_4_Wire.jpeg)
 
 ### Code
 
@@ -112,7 +112,7 @@ https://user-images.githubusercontent.com/63983735/198157735-de986317-83ba-4274-
 
 ### Wiring
 
-![Launch Pad](images/Launch_4_Wire.JPG)
+![Launch Pad](images/Launch_4_Wire.jpeg)
 
 ### Code
 
@@ -174,7 +174,7 @@ https://user-images.githubusercontent.com/63983735/198157804-bf16c9f3-f43b-47c4-
 
 ### Wiring
 
-![Launch Pad](images/Launch_4_Wire.JPG)
+![Launch Pad](images/Launch_4_Wire.jpeg)
 
 ### Code
 
