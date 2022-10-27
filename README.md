@@ -249,7 +249,7 @@ https://user-images.githubusercontent.com/63983735/198157965-b8bfef2b-3145-4d4d-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Crash 3](images/Crash_3_Wire.jpeg)
 
 ### Code
 
@@ -273,7 +273,7 @@ https://user-images.githubusercontent.com/63983735/198158030-ad1dd5ff-8b01-41d7-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Crash 3](images/Crash_3_Wire.jpeg)
 
 ### Code
 [This is my code](https://github.com/qragsda80/Engineering_4_Notebook/blob/main/raspberry-pi/CA2.py) 
@@ -295,8 +295,7 @@ Wire an OLED screen that prints the angular velocity values. Keep the other part
 ![Crash 3](images/Crash_3.gif)
 
 ### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Crash 3](images/Crash_3_Wire.jpeg)
 
 ### Code
 [This is my code](https://github.com/qragsda80/Engineering_4_Notebook/blob/main/raspberry-pi/CA3.py)
@@ -319,7 +318,7 @@ https://user-images.githubusercontent.com/63983735/198158356-7bf65323-b295-4371-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+No wiring
 
 ### Code
 [This is my code](https://github.com/qragsda80/Engineering_4_Notebook/blob/main/raspberry-pi/LA1.py)
@@ -342,7 +341,7 @@ https://user-images.githubusercontent.com/63983735/198158356-7bf65323-b295-4371-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Landing 2 Wire](images/Landing_2_Wire.jpeg)
 
 ### Code
 [This is my code](https://github.com/qragsda80/Engineering_4_Notebook/blob/main/raspberry-pi/LA2.py)
@@ -365,7 +364,7 @@ https://user-images.githubusercontent.com/63983735/198158584-17e3a748-1128-4bfb-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+No wiring
 
 ### Code
 
@@ -428,7 +427,7 @@ https://user-images.githubusercontent.com/63983735/198158753-2468a18c-96bf-4cf5-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Landing 2 Wire](images/MC2.jpeg)
 
 ### Code
 
