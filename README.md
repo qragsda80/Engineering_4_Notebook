@@ -34,8 +34,21 @@ No wiring
 
 ### Code
 
-```
+``` python
+# A countdown timer from 10-liftoff
 
+import time 
+import digitalio
+import board 
+
+led=digitalio.DigitalInOut(board.LED)
+led.direction=digitalio.Direction.OUTPUT
+
+for x in range(10, 0, -1): # This tells the function to count down from 10. The -1 means count down by one and the 0 means stop at 0. 
+    print(x)                   #Count down in serial moniter
+    time.sleep(1)
+
+print("liftoff")
 ```
 
 ### Reflection
@@ -60,8 +73,25 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
-```
+``` python
+import time
+import board
+import digitalio
+led = digitalio.DigitalInOut(board.GP15)
+led.direction = digitalio.Direction.OUTPUT
+led2 = digitalio.DigitalInOut(board.GP16)
+led2.direction = digitalio.Direction.OUTPUT
 
+#while True:
+for i in range(10,0,-1):
+    led.value = True
+    time.sleep(.5)
+    print(i)
+    led.value = False
+    time.sleep(.5)
+
+print('LIFTOFF')
+led2.value = True
 ```
 
 ### Reflection
@@ -74,7 +104,7 @@ I didn't have a lot of trouble on this assignment either. I realized that you ha
 
 ### Assignment Description
 
-We are adding on to the previous code. This time, you will use a button to initiate the countdown. 
+We are adding on to the previous code. This time, you will use a button to initiate the countdown. You are still counting down to liftoff and the LEDs are blinking every second. 
 
 ### Evidence 
 
@@ -86,9 +116,45 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
+This is the spicy version from Shrey because my code didn't get pushed correctly
+
+``` python
+import time
+import board
+import digitalio
+led = digitalio.DigitalInOut(board.GP15)
+led.direction = digitalio.Direction.OUTPUT
+led2 = digitalio.DigitalInOut(board.GP16)
+led2.direction = digitalio.Direction.OUTPUT
+button = digitalio.DigitalInOut(board.GP11)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+
+print('ready')
+
+abortcheck = 0
+
+while True:
+    if not button.value:
+        abortcheck = 1
+        for i in range(10,0,-1):
+            led.value = True
+            print(i)
+            time.sleep(.5)
+            led.value = False
+            if not button.value:
+                print("ABORT")
+                time.sleep(1)
+                abortcheck = 0
+                break
+            time.sleep(.5)
+        if abortcheck == 0:
+            led2.value = False
+        else:
+            led2.value = True
+            print("LIFTOFF")
 ```
 
-```
 
 ### Reflection
 
@@ -116,6 +182,8 @@ This may not be applicable to all assignments. Anything where you wire something
 import time
 import board
 import digitalio
+import pwmio
+from adafruit_motor import servo
 led = digitalio.DigitalInOut(board.GP15)
 led.direction = digitalio.Direction.OUTPUT
 led2 = digitalio.DigitalInOut(board.GP16)
@@ -123,24 +191,49 @@ led2.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP11)
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
+pwm_servo = pwmio.PWMOut(board.GP6, duty_cycle=2 ** 15, frequency=50)
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
+l = 0
 
+servo1.angle=0
 print('ready')
 
-while True:
-for i in range(10,0,-1):
-    led.value = True
-    time.sleep(.5)
-    print(i)
-    led.value = False
-    time.sleep(.5)
+abortcheck = 0
 
-print('LIFTOFF')
-led2.value = True 
+while True:
+    if not button.value:
+        abortcheck = 1
+        for i in range(10,0,-1):
+            led.value = True
+            print(i)
+            time.sleep(.5)
+            led.value = False
+            time.sleep(.5)
+            if i <= 3:
+                led.value = True
+                #print(i)
+                led.value = False
+                servo1.angle = 60*(4-i)
+                time.sleep(0.05)
+            if not button.value:
+                    print("ABORT")
+                    time.sleep(1)
+                    abortcheck = 0
+                    break
+
+
+
+        if abortcheck == 0:
+            led2.value = False
+        else:
+            led2.value = True
+            print("LIFTOFF")
+
 ```
 
 ### Reflection
 
-
+This part was very easy. All you had to do was add as variable for the servo. Then you would make sure the code is running by printing "ready." You also needed to set the servo equal to 0 degress before you made it move by saying "servo1.angle=0." In the spicy version that Shrey did, he split up the movement of the servo into 3 sections of 60 degree rotations. 
 
 &nbsp;
 
@@ -164,7 +257,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+A very important thing to get out of this assignment is the use of f-strings. They can shorten your code by a lot and are very useful. We also were introduced to an accelerometer which I have never used before. It returns acceleration values wich will be useful in our pi in the sky projects.
 
 &nbsp;
 
@@ -187,7 +280,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was pretty simple. We added an if functions that said that if the value is less than or greater than 9 (which is around 90 degree), turn the LED on. This means I could turn the accelerometer in any direction on any axis and the LED would turn on if it gets close to 90 degrees. 
 
 &nbsp;
 
@@ -199,7 +292,6 @@ Wire an OLED screen that prints the angular velocity values. Keep the other part
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
 ### Wiring
 
@@ -210,7 +302,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+One challenging part of this assignment was learning how to make a splash function run over and over again and not just text on top of eachother. Have ( splash = displayio.Group()) before the code to print on the OLED screen in your while True: loop. Once You also had to change the code from acceleration to angular velocity, but that wasn't hard.
 
 &nbsp;
 
@@ -222,7 +314,7 @@ Make code that will allow you to enter 3 coordinates of a triangle. Then it will
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198158356-7bf65323-b295-4371-82c7-9e00e29244bc.mov
 
 ### Wiring
 
@@ -233,7 +325,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+There was a going to be a lot of code in this assignment if it weren't for Elias Zell. He told me he found a really easy way to compress the code which was really helpful especially in the second assignment when you add more code. Learning the float function was helpful to convert the characters to number that the computer would understand. 
 
 &nbsp;
 
@@ -245,7 +337,7 @@ Building on the last assignment, use an OLED screen to print everything. Also, y
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198158356-7bf65323-b295-4371-82c7-9e00e29244bc.mov
 
 ### Wiring
 
@@ -256,7 +348,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was a lot simpler because of how I did the first assignment. I wired the OLED screen up and created axis lines for the graph. You had figure out how to make the graph correctly. I added 64 to the x-values and 32 to the y-values to make sure the points were in the right place. The 0,0 is in the corner of the OLED screen instead of the middle, so we had to change that. There was a circle function that I put on the origin and the triangle function which I used and put in the coordinate points.
 
 &nbsp;
 
@@ -268,7 +360,7 @@ The objective of this assignment is to translate a few words into morse code. Th
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198158584-17e3a748-1128-4bfb-bd6e-e12d76896160.mov
 
 ### Wiring
 
@@ -276,13 +368,50 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
-```
+``` python
+import time
+import board
+import digitalio
+led = digitalio.DigitalInOut(board.GP13)
+led.direction = digitalio.Direction.OUTPUT
+MORSE_CODE = { 'A':'.-', 'B':'-...',
+    'C':'-.-.', 'D':'-..', 'E':'.',
+    'F':'..-.', 'G':'--.', 'H':'....',
+    'I':'..', 'J':'.---', 'K':'-.-',
+    'L':'.-..', 'M':'--', 'N':'-.',
+    'O':'---', 'P':'.--.', 'Q':'--.-',
+    'R':'.-.', 'S':'...', 'T':'-',
+    'U':'..-', 'V':'...-', 'W':'.--',
+    'X':'-..-', 'Y':'-.--', 'Z':'--..',
+    '1':'.----', '2':'..---', '3':'...--',
+    '4':'....-', '5':'.....', '6':'-....',
+    '7':'--...', '8':'---..', '9':'----.',
+    '0':'-----', ', ':'--..--', '.':'.-.-.-',
+    '?':'..--..', '/':'-..-.', '-':'-....-',
+    '(':'-.--.', ')':'-.--.-'}
+modifier = 0.25
+dot_time = 1*modifier
+dash_time = 3*modifier
+between_taps = 1*modifier
+between_letters = 3*modifier
+between_words = 7*modifier
+list=[]
+message = input("Enter message: ")
+message=message.upper()
+final = ""
+for letter in message:
+    list.append(letter)
+    if letter == " ":
+        final = final + "/" + " "
 
+    else:
+        final = final + MORSE_CODE[letter] + " " 
+print (final)
 ```
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+ We used libraries for the first time in this assignment. It wwas nice that all of the morse code language was already done for us and we would just pull it from that. One part that I struggled on was figuring out how to space out the words in with the spaces and slashes, but I firgured out I had to count a space as a character. I said that "if letter == " "", you put a slash and a space at the end of it. If there is no space, you add a space on the end of the morse code letter by saying "final = final + MORSE_CODE[letter] + ' '"
 
 &nbsp;
 
@@ -294,7 +423,7 @@ This assignment adds on to the previous, "Morse Code 1." In this assignment you 
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+https://user-images.githubusercontent.com/63983735/198158753-2468a18c-96bf-4cf5-ab43-da9e89b4351b.mov
 
 ### Wiring
 
@@ -302,13 +431,67 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
-```
+``` python
 
+import time
+import board
+import digitalio
+led = digitalio.DigitalInOut(board.GP13)
+led.direction = digitalio.Direction.OUTPUT
+MORSE_CODE = { 'A':'.-', 'B':'-...',
+    'C':'-.-.', 'D':'-..', 'E':'.',
+    'F':'..-.', 'G':'--.', 'H':'....',
+    'I':'..', 'J':'.---', 'K':'-.-',
+    'L':'.-..', 'M':'--', 'N':'-.',
+    'O':'---', 'P':'.--.', 'Q':'--.-',
+    'R':'.-.', 'S':'...', 'T':'-',
+    'U':'..-', 'V':'...-', 'W':'.--',
+    'X':'-..-', 'Y':'-.--', 'Z':'--..',
+    '1':'.----', '2':'..---', '3':'...--',
+    '4':'....-', '5':'.....', '6':'-....',
+    '7':'--...', '8':'---..', '9':'----.',
+    '0':'-----', ', ':'--..--', '.':'.-.-.-',
+    '?':'..--..', '/':'-..-.', '-':'-....-',
+    '(':'-.--.', ')':'-.--.-'}
+modifier = 0.25
+dot_time = 1*modifier
+dash_time = 3*modifier
+between_taps = 1*modifier
+between_letters = 3*modifier
+between_words = 7*modifier
+list=[]
+message = input("Enter message: ")
+message=message.upper()
+final = ""
+for letter in message:
+    list.append(letter)
+    if letter == " ":
+        final = final + "/" + " "
+
+    else:
+        final = final + MORSE_CODE[letter] + " " 
+print (final)
+
+for character in final:
+    if character == ".":
+        led.value = True
+        time.sleep(dot_time)
+    if character == "-":
+        led.value = True
+        time.sleep(dash_time)
+    if character == "/":
+        led.value = True
+        time.sleep(between_words)
+    if character == "":
+        led.value = True
+        time.sleep(between_letters)
+    led.value = False
+    time.sleep(between_taps)
 ```
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+It was a fun addition to the previous assignment.First we created a constant to multiply by when figuring out how much time we want in between each tap, letter, and word. This constant was called "modifier." It was .25 second long and we muliplied it by 1 for a dot, 3 for a dash, 1 for between taps, 3 for between letter, and 7 for between words. Then we made a lot of if statements for each character that you would see to translate that to the LED. I showed my parents this assignment and they thought it was very useful in the real world.
 
 &nbsp;
 
