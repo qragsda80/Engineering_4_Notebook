@@ -77,10 +77,10 @@ https://user-images.githubusercontent.com/63983735/198157540-1b7d27db-2d23-466f-
 import time
 import board
 import digitalio
-led = digitalio.DigitalInOut(board.GP15)
-led.direction = digitalio.Direction.OUTPUT
+led = digitalio.DigitalInOut(board.GP15)   #Set led and led2 to control both leds and make them do seperate things.
+led.direction = digitalio.Direction.OUTPUT   #red led
 led2 = digitalio.DigitalInOut(board.GP16)
-led2.direction = digitalio.Direction.OUTPUT
+led2.direction = digitalio.Direction.OUTPUT   #green led
 
 #while True:
 for i in range(10,0,-1):
@@ -96,7 +96,7 @@ led2.value = True
 
 ### Reflection
 
-I didn't have a lot of trouble on this assignment either. I realized that you have to make two different LED variables to make one blink at a different time than the other. I used Led1 and Led2.
+I didn't have a lot of trouble on this assignment either. I realized that you have to make two different LED variables to make one blink at a different time than the other. I used Led and Led2.
 
 &nbsp;
 
@@ -128,14 +128,14 @@ led2 = digitalio.DigitalInOut(board.GP16)
 led2.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP11)
 button.direction = digitalio.Direction.INPUT
-button.pull = digitalio.Pull.UP
+button.pull = digitalio.Pull.UP      # Button is pulled up so when pressed will read as true
 
 print('ready')
 
 abortcheck = 0
 
 while True:
-    if not button.value:
+    if not button.value:       #if button is pressed, initiate this function
         abortcheck = 1
         for i in range(10,0,-1):
             led.value = True
@@ -195,7 +195,7 @@ pwm_servo = pwmio.PWMOut(board.GP6, duty_cycle=2 ** 15, frequency=50)
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 l = 0
 
-servo1.angle=0
+servo1.angle=0     #tells angle that servo starts at
 print('ready')
 
 abortcheck = 0
@@ -209,11 +209,11 @@ while True:
             time.sleep(.5)
             led.value = False
             time.sleep(.5)
-            if i <= 3:
+            if i <= 3:         
                 led.value = True
                 #print(i)
                 led.value = False
-                servo1.angle = 60*(4-i)
+                servo1.angle = 60*(4-i)      #60 degree rotations for 3 times
                 time.sleep(0.05)
             if not button.value:
                     print("ABORT")
@@ -374,7 +374,7 @@ import board
 import digitalio
 led = digitalio.DigitalInOut(board.GP13)
 led.direction = digitalio.Direction.OUTPUT
-MORSE_CODE = { 'A':'.-', 'B':'-...',
+MORSE_CODE = { 'A':'.-', 'B':'-...',      #morse code dictionary
     'C':'-.-.', 'D':'-..', 'E':'.',
     'F':'..-.', 'G':'--.', 'H':'....',
     'I':'..', 'J':'.---', 'K':'-.-',
@@ -397,15 +397,15 @@ between_letters = 3*modifier
 between_words = 7*modifier
 list=[]
 message = input("Enter message: ")
-message=message.upper()
+message=message.upper()       #Capitalization for message
 final = ""
 for letter in message:
     list.append(letter)
     if letter == " ":
-        final = final + "/" + " "
+        final = final + "/" + " "    #puts a slash and a space in between words
 
     else:
-        final = final + MORSE_CODE[letter] + " " 
+        final = final + MORSE_CODE[letter] + " "     #puts a spce in between letter in morse code
 print (final)
 ```
 
@@ -473,19 +473,19 @@ for letter in message:
 print (final)
 
 for character in final:
-    if character == ".":
+    if character == ".":      #if character is a . turn led on for dot_time
         led.value = True
         time.sleep(dot_time)
-    if character == "-":
+    if character == "-":      #if character is a - turn led on for dash_time
         led.value = True
         time.sleep(dash_time)
-    if character == "/":
+    if character == "/":     #if character is a / turn off for between_words
         led.value = True
         time.sleep(between_words)
-    if character == "":
+    if character == "":       #if there is no character, turn led off for between_letters
         led.value = True
         time.sleep(between_letters)
-    led.value = False
+    led.value = False         
     time.sleep(between_taps)
 ```
 
