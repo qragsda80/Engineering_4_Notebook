@@ -14,7 +14,12 @@
 * [Landing_Area_2](#Landing_Area_2)
 * [Morse_Code_1](#Morse_Code_1)
 * [Morse_Code_2](#Morse_Code_2)
-* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
+* [FEA Part 1 (Beam Design)](#Onshape_Assignment_Template)
+* [FEA Part 2 (Simscale Workflow)](#Onshape_Assignment_Template)
+* [FEA Part 3 (Iterative Design)](#Onshape_Assignment_Template)
+* [FEA Part 1 ()](#Onshape_Assignment_Template)
+* [FEA Part 1 ()](#Onshape_Assignment_Template)
+* [FEA Part 1 ()](#Onshape_Assignment_Template)
 
 &nbsp;
 
