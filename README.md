@@ -14,12 +14,12 @@
 * [Landing_Area_2](#Landing_Area_2)
 * [Morse_Code_1](#Morse_Code_1)
 * [Morse_Code_2](#Morse_Code_2)
-* [FEA Part 1 (Beam Design)](FEA Part 1 (Beam Design))
-* [FEA Part 2 (Simscale Workflow)](FEA Part 2 (Simscale Workflow))
-* [FEA Part 3 (Iterative Design)](FEA Part 3 (Iterative Design))
-* [4.1 Ring and Spinner](4.1 Ring and Spinner)
-* [4.2 Key and Prop](4.2 Key and Prop)
-* [4.3 Assembling the Launcher](4.3 Assembling the Launcher)
+* [FEA Part 1 (Beam Design)](#FEA Part 1 (Beam Design))
+* [FEA Part 2 (Simscale Workflow)](#FEA Part 2 (Simscale Workflow))
+* [FEA Part 3 (Iterative Design)](#FEA Part 3 (Iterative Design))
+* [4.1 Ring and Spinner](#4.1 Ring and Spinner)
+* [4.2 Key and Prop](#4.2 Key and Prop)
+* [4.3 Assembling the Launcher](#4.3 Assembling the Launcher)
 
 &nbsp;
 
