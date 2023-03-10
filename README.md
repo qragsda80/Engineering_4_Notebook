@@ -544,7 +544,7 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 
 
-## FEA Part 1 (Beam Design)
+## FEA_Part_1_Beam_Design
 
 ### Assignment Description
 
