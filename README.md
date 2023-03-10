@@ -544,7 +544,7 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 
 
-## FEA_Part_1_Beam_Design
+## FEA Part 1-Beam Design
 
 ### Assignment Description
 
@@ -565,7 +565,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
-## FEA Part 2 (Simscale Workflow)
+## FEA Part 1-Simscale Workflow
 
 ### Assignment Description
 
@@ -586,7 +586,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
-## FEA Part 3 (Iterative Design)
+## FEA Part 1-Iterative Design
 
 ### Assignment Description
 
