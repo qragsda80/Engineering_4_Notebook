@@ -612,7 +612,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The purpose of this assignment is to refresh and relearn our skills in Onshape. The task is to create and design a ring and a spinner 
 
 ### Part Link 
 
@@ -620,7 +620,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Hyperlink text](images/Ring&Spinner.jpg) 
 
 ### Reflection
 
@@ -642,7 +642,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Hyperlink text](images/Key&Prop.jpg)
 
 ### Reflection
 
@@ -660,7 +660,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Link 
 
-[Link to the Assembly](https://cvilleschools.onshape.com/documents/8616b8a375e597ac84230d17/w/24a18f8c93de24401fba89ea/e/5fe78ceeb2398b3504d84b42?renderMode=0&uiState=640f2f1e61c40226d1bda0a9). 
+[Link to the Assembly](https://cvilleschools.onshape.com/documents/8616b8a375e597ac84230d17/w/24a18f8c93de24401fba89ea/e/5d6f1ec0c09f80c20c19635d). 
 
 ### Part Image
 
