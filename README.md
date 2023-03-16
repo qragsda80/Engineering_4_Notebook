@@ -556,7 +556,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Hyperlink text](images/FEA1.jpg)
 
 ### Reflection
 
@@ -577,7 +577,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Hyperlink text](images/FEA2.jpg)
 
 ### Reflection
 
@@ -598,7 +598,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Hyperlink text](images/FEA3.jpg)
 
 ### Reflection
 
