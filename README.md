@@ -620,7 +620,8 @@ The purpose of this assignment is to refresh and relearn our skills in Onshape. 
 
 ### Part Image
 
-![Hyperlink text](images/Ring&Spinner.jpg) 
+![Hyperlink text](images/Ring.jpg) 
+![Hyperlink text](images/Spinner.jpg) 
 
 ### Reflection
 
