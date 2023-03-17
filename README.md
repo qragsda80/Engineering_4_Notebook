@@ -642,7 +642,8 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-![Hyperlink text](images/Key&Prop.jpg)
+![Hyperlink text](images/Key.jpg)
+![Hyperlink text](images/Prop.jpg)
 
 ### Reflection
 
