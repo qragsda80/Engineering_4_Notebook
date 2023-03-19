@@ -565,7 +565,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
-## FEA Part 1-Simscale Workflow
+## FEA Part 2-Simscale Workflow
 
 ### Assignment Description
 
@@ -586,7 +586,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
-## FEA Part 1-Iterative Design
+## FEA Part 3-Iterative Design
 
 ### Assignment Description
 
