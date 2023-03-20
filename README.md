@@ -598,7 +598,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-![Hyperlink text](images/FEA3.jpg)
+![Hyperlink text](images/FEA3R.jpg)
 
 ### Reflection
 
