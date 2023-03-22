@@ -560,7 +560,7 @@ This assignment is a challenge to see what team can create a beam that can hold 
 
 ### Reflection
 
-For this beam, we made walls to try to reduce the amount of displacement going down when the weight is attached. This worked pretty well, but it still reached the displacement down 35mm before it broke. When it did break, it broke at the base of the beam. This means that in the next design, we need to add material to the 
+For this beam, we made walls to try to reduce the amount of displacement going down when the weight is attached. This worked pretty well, but it still reached the displacement down 35mm before it broke. When it did break, it broke at the base of the beam. This means that in the next design, we need to add material to the walls and to the base of our beam.
 
 
 
@@ -581,7 +581,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+When we used the Simscale, we can see that there is a lot of stress at the base of the beam. We used fillets at the base to try to add material to the point where it breaks. We took away as much material as we could from the end to reduce stress and weight and added it to the base with a draft on the walls.
 
 
 
@@ -602,7 +602,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+For the final beam design, we cut out triangular holes and used more fillets to reduce weight. Our final weight was 12.99g. It held 
 
 
 
