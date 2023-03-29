@@ -569,7 +569,7 @@ For this beam, we made walls to try to reduce the amount of displacement going d
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment is a challenge to see what team can create a beam that can hold the most weight while staying within the constraints listed. The constraints are the following: the beam must be 180mm long, the beam cannot be more than 13g, and vertical angles must be >=45 degrees. The will fail if the beam breaks or the beam bends more than 35mm down.
 
 ### Part Link 
 
@@ -590,7 +590,7 @@ When we used the Simscale, we can see that there is a lot of stress at the base 
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This assignment is a challenge to see what team can create a beam that can hold the most weight while staying within the constraints listed. The constraints are the following: the beam must be 180mm long, the beam cannot be more than 13g, and vertical angles must be >=45 degrees. The will fail if the beam breaks or the beam bends more than 35mm down.
 
 ### Part Link 
 
@@ -602,7 +602,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Reflection
 
-For the final beam design, we cut out triangular holes and used more fillets to reduce weight. Our final weight was 12.99g. It held 
+For the final beam design, we cut out triangular holes and used more fillets to reduce weight. In the redesign, we mostly focused on reducing weight on the end and adding material. We made the walls taller and thinner. It held 2.27kg before it bent past 35mm. We finished first place in our class for this assignment, so I think that it was pretty successful.
 
 
 
