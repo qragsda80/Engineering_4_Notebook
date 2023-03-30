@@ -612,7 +612,7 @@ For the final beam design, we cut out triangular holes and used more fillets to 
 
 ### Assignment Description
 
-The purpose of this assignment is to refresh and relearn our skills in Onshape. The task is to create and design a ring and a spinner 
+The purpose of this assignment is to refresh and relearn our skills in Onshape. The task is to create and design a ring and a spinner for a helicopter toy called a "Pull Copter." In this assignment, I was Student A and Shrey Panicker [@shrey45](https://github.com/shrey45) was Student B. I created the Ring, the Top, and the Key, while Shrey created the Spinner and the Prop.
 
 ### Part Link 
 
@@ -625,7 +625,7 @@ The purpose of this assignment is to refresh and relearn our skills in Onshape. 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was pretty simple and was helpful in relearning the skills that we need to design our Pi in the Sky projects in Onshape. For the ring, I used the sketch of the top and extruded it to make the base of the ring. I then sketched two circles and extruded them to create a ring shape. Then, I used 1.5mm fillets to make the base stronger and more connected. The last part was making a whole in the middle for the spinner.
 
 
 
@@ -635,7 +635,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The purpose of this assignment is to refresh and relearn our skills in Onshape. The task is to create and design a ring and a spinner for a helicopter toy called a "Pull Copter." In this assignment, I was Student A and Shrey Panicker [@shrey45](https://github.com/shrey45) was Student B. I created the Ring, the Top, and the Key, while Shrey created the Spinner and the Prop.
 
 ### Part Link 
 
@@ -648,7 +648,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was pretty simple and was helpful in relearning the skills that we need to design our Pi in the Sky projects in Onshape. For the Key, I started by offsetting a hole in the Top and extruding it 3mm in one directiong and 50 in the other. I then extruded a ring on the end of it to create a handle. I created a sketch of the 53mm piece and cut it out with an extrude remove. I made it a linear pattern along the piece which made teeth in the piece.
 
 
 
@@ -658,7 +658,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The purpose of this assignment is to refresh and relearn our skills in Onshape. The task is to create and design a ring and a spinner for a helicopter toy called a "Pull Copter." In this assignment, I was Student A and Shrey Panicker [@shrey45](https://github.com/shrey45) was Student B. I created the Ring, the Top, and the Key, while Shrey created the Spinner and the Prop.
 
 ### Part Link 
 
